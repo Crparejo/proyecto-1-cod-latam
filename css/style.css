@@ -204,7 +204,7 @@ a {
 }
 
 .boton {
-    background-color: #af599e;
+    background-color: #59abaf;
     font-size: 20px;
     padding: 15px;
     border-radius: 30px;
@@ -214,7 +214,7 @@ a {
 }
 
 .boton:hover {
-    background-color: #d511ae;
+    background-color: #59abaf;
     transition: all 0.2s;
     border: black;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.7);
@@ -232,7 +232,7 @@ a {
     margin: 25px;
     padding: 25px;
     border-radius: 5%;
-    background-color: rgba(175, 89, 158, 0.3);
+    background-color: #59abaf;
 }
 
 .parrafo-2 {
@@ -264,7 +264,7 @@ a {
     justify-content: center;
     margin: 0 15px;
     width: 50px;
-    height: 50px;
+    height: 10px;
     text-align: center;
 }
 
@@ -315,20 +315,21 @@ ul {
 
 /*Seccion de formularios*/
 .container-4 {
-    height: 400px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.container-4 .contener-formulario {
+/*.container-4 .contener-formulario {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-}
+    Lo dejaré aquí para referencias futuras
+} */
 
 .contanido {
     font: inherit;
@@ -359,7 +360,7 @@ textarea {
 }
 
 .boton-2:hover {
-    background: #d511ae;
+    background: #59abaf;
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.4);
 
@@ -371,27 +372,9 @@ label {
     margin: 5px;
 }
 
-.container-4 input {
-    border-radius: 8px;
-    border-color: #d511ae;
-}
-
-.container-4 .contenido-comentario {
-    border-radius: 8px;
-    border-color: #d511ae;
-
-}
-
-.container-4 {
-    background: rgba(175, 89, 158, 0.3);
-    margin: 30px 25px;
-    border-radius: 8%;
-
-}
-
 /*Pie de pagina*/
 footer {
-    background-color: #af599e;
+    background-color: #59abaf;
     height: 90px;
     text-align: center;
     align-items: center;
@@ -410,7 +393,7 @@ span {
     justify-content: center;
     color: #fff;
     font-family: 'Lato', sans-serif;
-    background-color: #af599e;
+    background-color: #59abaf;
     position: relative;
     text-align: center;
     margin: 35px 0 0;
